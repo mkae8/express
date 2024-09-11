@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "userId": "1",
+      "username": "Temuujin",
+      "profilePic": "https://scontent.fuln2-2.fna.fbcdn.net/v/t39.30808-6/294884856_1523021064762744_5229780979464934355_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=pHopcYiHiRwQ7kNvgGs_zRG&_nc_ht=scontent.fuln2-2.fna&oh=00_AYB4trVVZCTBAemNjFhjLiqPnnhfo1pTRy6zVR3AVZYG-A&oe=66E5A49D"
+    },
+    {
+      "userId": "2",
+      "username": "Rockit Bay",
+      "profilePic": "https://scontent.fuln2-2.fna.fbcdn.net/v/t1.6435-9/195683348_344113410406158_617010943888364211_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=Oi0OWXNIzfcQ7kNvgFOmn-E&_nc_ht=scontent.fuln2-2.fna&oh=00_AYA9ybD3AqhxlE6ubj8lAugV2MQoAvbcBVM3waUvfEPiaA&oe=670735E9"
+    }
+  ],
+  "posts": [
+    {
+      "userId": "2",
+      "postId": "123",
+      "title": "Rockit bay",
+      "description": "Тоглолт болоход 4 өдөр үлдлээ.",
+      "image": "https://scontent.fuln2-2.fna.fbcdn.net/v/t39.30808-6/458965516_1077852483698910_5135098398027923142_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YhUUFvY8DpQQ7kNvgFZ14OZ&_nc_ht=scontent.fuln2-2.fna&_nc_gid=AgqTbgu35WmyYjFxkBvdDoR&oh=00_AYDbmBtWi4tSv7xomvvRL4MHZvPH_cqC9eDfSo6LYL-xvQ&oe=66E5A0B8",
+      "publishedAt": "Friday, March 10, 2023 at 5:54PM"
+    },
+    {
+      "userId": "1",
+      "postId": "456",
+      "title": "Rockit bay",
+      "description": "Тоглолт болоход 4 өдөр үлдлээ.",
+      "image": "https://scontent.fuln2-2.fna.fbcdn.net/v/t39.30808-6/458965516_1077852483698910_5135098398027923142_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YhUUFvY8DpQQ7kNvgFZ14OZ&_nc_ht=scontent.fuln2-2.fna&_nc_gid=AgqTbgu35WmyYjFxkBvdDoR&oh=00_AYDbmBtWi4tSv7xomvvRL4MHZvPH_cqC9eDfSo6LYL-xvQ&oe=66E5A0B8",
+      "publishedAt": "Friday, March 10, 2023 at 5:54PM"
+    },
+    {
+      "postId": "2317054e-4b0e-4a13-ae1a-26ea406d79a9",
+      "userId": "5",
+      "publishedAt": "2024-09-11T01:18:09.506Z"
+    }
+  ],
+  "comments": [
+    {
+      "commentId": "com",
+      "text": "hahaha",
+      "userId": "1",
+      "postId": "123",
+      "publishedAt": "Friday, March 10, 2023 at 5:54PM"
+    },
+    {
+      "commentId": "com1",
+      "text": "ajillaj bn",
+      "userId": "2",
+      "postId": "123",
+      "publishedAt": "Friday, March 10, 2023 at 5:54PM"
+    },
+    {
+      
+      "text": "This is my comment",
+      "postId": "123",
+      "userId": "456",
+      "publishedAt": "2024-09-11T01:46:33.517Z"
+    }
+  ]
+}
