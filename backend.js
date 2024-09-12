@@ -1,9 +1,3 @@
-// CRUD
-// create - post
-// read - get
-// update -put
-// delete - delete
-
 const express = require("express");
 const PORT = 8000;
 const app = express();
@@ -135,61 +129,4 @@ app.delete("/comment/:id", async (req, res) => {
   result.comments = deleteComments;
   await fs.writeFileSync("./db.json", JSON.stringify(result), "utf-8");
   res.send(result.comments);
-});
-
-
-
-// Sign-up: Adds a new user
-app.post("/sign-up", async (req, res) => {
-  const { username, email, password } = req.body;
-
-  // Read existing users from db.json
-  const resultJson = await fs.readFileSync("./db.json", "utf-8");
-  const result = JSON.parse(resultJson);
-
-  // Create a new user object with a unique postId
-  const newUser = {
-    postId: uuidv4(), // Generate unique ID
-    username,
-    email,
-    password,
-  };
-
-  // Add the new user to the users array
-  result.users.push(newUser);
-
-  // Write the updated data back to db.json
-  await fs.writeFileSync("./db.json", JSON.stringify(result), "utf-8");
-
-  res.send("User successfully signed up!");
-});
-
-// Update: Modifies email or password of an existing user
-app.put("/update", async (req, res) => {
-  const { postId, email, password } = req.body;
-
-  // Read existing users from db.json
-  const resultJson = await fs.readFileSync("./db.json", "utf-8");
-  const result = JSON.parse(resultJson);
-
-  // Find user by postId
-  const user = result.users.find((el) => el.postId === postId);
-
-  if (!user) {
-    return res.status(404).send("User not found");
-  }
-
-  // Update email and/or password if provided
-  if (email) user.email = email;
-  if (password) user.password = password;
-
-  // Write the updated data back to db.json
-  await fs.writeFileSync("./db.json", JSON.stringify(result), "utf-8");
-
-  res.send("User information updated successfully!");
-});
-
-
-app.listen(PORT, () => {
-  console.log(` ene deer ajillaj bn localhost:${PORT}`);
 });

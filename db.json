@@ -1,3 +1,15 @@
 {
-  "users": [{ "username": "mkae@gmail.com", "password": "2" }]
+  "users": [
+    {
+      "username": "irgenA",
+      "password": "1",
+      "Hashedpassword": "$2a$10$G7hYFHzBV7sI0.f9YJxjXuCcGIoA2qXaTwvMNiuZ8BShEJ/hf0jPK"
+    },
+    {
+      "username": "irgenB",
+      "password": "1",
+      "Hashedpassword": "$2a$10$FpNw.YqEVrbAtDYBsjl/peXm34mfl2wLdivmpLEwLuMn2kuSW4/u2"
+    }
+  ],
+  "posts": [{}]
 }
