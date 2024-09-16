@@ -1,1 +1,15 @@
-{"users":[{"username":"irgenA","Hashedpassword":"$2a$10$G7hYFHzBV7sI0.f9YJxjXuCcGIoA2qXaTwvMNiuZ8BShEJ/hf0jPK"},{"username":"irgenB","Hashedpassword":"$2a$10$FpNw.YqEVrbAtDYBsjl/peXm34mfl2wLdivmpLEwLuMn2kuSW4/u2"},{"username":"testUser","Hashedpassword":"$2a$10$ifc9dDlCJ765rgkRcGgvaOyt0duJBOs8hCWCCukANmgXuRA63SjRO"},{"username":"irgenZ","password":"1","Hashedpassword":"$2a$10$NQIFNc7WtdpG6n/V88JUwuuVk1PToi/0mhd0Mf/xBA2P9jHXpbVA6"},{"username":"dsa","password":"dsa","Hashedpassword":"$2a$10$wuLiluEyJ4f28TiCOF4YpOX.BFaOsz6cbU3PgIZbQvf9C6u1nOSoq"},{"username":"haha","password":"123","Hashedpassword":"$2a$10$YjLdE.ceKTeS4NGMebszCeA3CRzCdyTybBvVTURKvy4D2vqDqNJYW"},{"username":"irgenW","password":"1123","Hashedpassword":"$2a$10$eHsne9VBwMlT56VdaI5jiu5.XU7YOAchOystgqG03u0sDeLwnTcIK"},{"username":"mama","password":"123","Hashedpassword":"$2a$10$D8ebI8wDmMYV65NbpSQnXe2QKOfYtloGn.031RsluiXIUcOPk5oZS"},{"username":"hahah","password":"123","Hashedpassword":"$2a$10$T03V1ZKtJs3dY4aFKzEQVOyyZlPLAJZAvJSjBvwJMJzncVCVcF05S"},{"username":"shagai","password":"123","Hashedpassword":"$2a$10$QIFl97hiE2ZT9OMU4hP.VObYnvsbjgesir1QhuMgS9z874e7XoHUS"}],"posts":[{}]}
+{
+  "users": [
+    {
+      "username": "mka",
+      "password": "123",
+      "Hashedpassword": "$2a$10$AsqM75nqkV34tXw387zkdORw4LIm4M9D52Nso60G6mN..7DNnN5ky"
+    },
+    {
+      "username": "irgenA",
+      "password": "1",
+      "Hashedpassword": "$2a$10$Aw/3j/X9OUjnTVCFvdf0N.ur49R661kY7bztkLzKw1h3WlVFB3dD."
+    }
+  ],
+  "posts": [{}]
+}
