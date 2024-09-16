@@ -13,11 +13,21 @@ const Home = () => {
   };
 
   return (
-    <div className="flex  flex-col gap-5 ">
-      <Link href={"/login"}>Log In</Link>
-      <Link href={"/signup"}>Sign Up</Link>
+    <div className="flex  flex-col gap-5 mt-[200px] ml-[100px] ">
+      <Link
+        className="h-[50px] w-[200px] border flex justify-center items-center text-white rounded-md bg-slate-700"
+        href={"/login"}
+      >
+        Log In
+      </Link>
+      <Link
+        className="h-[50px] w-[200px] border  flex justify-center items-center text-white rounded-md bg-slate-700"
+        href={"/signup"}
+      >
+        Sign Up
+      </Link>
       <button onClick={fetchUser} className="border h-[50px] w-[200px]">
-        avchirlaa
+        Show all users
       </button>
     </div>
   );
